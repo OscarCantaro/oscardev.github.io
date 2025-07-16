@@ -40,8 +40,8 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Armando',
+    subtitle: 'Mi pagina personal ',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -49,11 +49,11 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Proyectos',
             href: '/projects'
         },
         {
@@ -61,8 +61,8 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'GitHub',
+            href: 'https://github.com/OscarCantaro'
         }
     ],
     footerNavLinks: [
@@ -77,15 +77,11 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
+            text: 'LinkedIn',
             href: 'https://dribbble.com/'
         },
         {
@@ -93,7 +89,7 @@ const siteConfig: SiteConfig = {
             href: 'https://instagram.com/'
         },
         {
-            text: 'X/Twitter',
+            text: 'TikTok',
             href: 'https://twitter.com/'
         }
     ],
